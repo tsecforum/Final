@@ -60,6 +60,3 @@ def logout(request):
 	auth.logout(request)
 	dic = {'logout':'successful'}
 	return JsonResponse(dic)
-
-def dashboard(request):
-	return HttpResponse("Hello")
